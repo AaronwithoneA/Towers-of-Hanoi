@@ -1,0 +1,48 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+  background: #dd4400;
+}
+
+ul {
+  margin: 80px auto;
+  width: 600px;
+  height: 360px;
+  border: black solid 2px;
+}
+
+li {
+  float: left;
+  list-style: none;
+  width: 200px;
+  height: 120px;
+  /*border: black solid 10px;*/
+  box-sizing: border-box;
+}
+
+.disk {
+  border-radius: 10px;
+  background-color: grey;
+  height: 40px;
+}
+
+.small {
+  /*border-radius: 10px;
+  background-color: grey;
+  height: 40px;*/
+  width: 60px;
+  margin: 30px 70px;
+}
+
+.medium {
+  width: 80px;
+  margin: 30px 60px;
+}
+
+.large {
+  width: 100px;
+  margin: 30px 50px;
+}
